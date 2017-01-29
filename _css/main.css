@@ -38,8 +38,7 @@ header{
 }
 
 .landing{
-
-      height: 200vh;
+      height: 100vh;
 }
 
 .landing h3, .destination h3, .moment h3, .memory h3{
@@ -50,6 +49,11 @@ header{
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
+      z-index: 10;
+}
+
+#landing.change h3 {
+      color: green;
 }
 
 .imgBox{
