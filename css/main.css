@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* Framework Shankar 0.0 main stylesheet */
+
+
+/* --------------------------------------------------
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+
+/* -----------------------------------------
+   Fonts Used
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Landing Section
+----------------------------------------- */
+
+header{
+      display: none;
+}
+
+.landing, .landing2, .destination, .moment, .memory{
+      display: block;
+      position: relative;
+}
+
+.landing, .landing2{
+      height: 100vh;
+}
+
+.landing h3, .destination h3, .moment h3, .memory h3{
+      color: orange;
+      font-size: 3em;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 10;
+}
+
+#landing.change h3 {
+      color: green;
+}
+
+.imgBox{
+      display: block;
+      width: 100%;
+      height: 100vh;
+}
+
+/*body{
+      display: block;
+      display: block;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      background: url("../_img/f1.jpg") center center no-repeat;
+      background-size: cover;
+}*/
+
+.landingImg{
+      background: url("../_img/f1.jpg") center center no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+.destinationImg {
+      background: url("../_img/f2.jpg") center center no-repeat;
+      background-size: cover;
+}
+
+.momentImg {
+      background: url("../_img/f3.jpeg") center center no-repeat;
+      background-size: cover;
+}
+
+.memoryImg{
+      background: url("../_img/f4.jpg") center center no-repeat;
+      background-size: cover;
+}
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Media Queries
+----------------------------------------- */
+
+@media only screen and (min-width: 700px) {
+
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+
+}
