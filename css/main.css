@@ -73,23 +73,23 @@ header{
 }*/
 
 .landingImg{
-      background: url("../_img/f1.jpg") center center no-repeat;
+      background: url("../img/f1.jpg") center center no-repeat;
       background-size: cover;
       background-attachment: fixed;
 }
 
 .destinationImg {
-      background: url("../_img/f2.jpg") center center no-repeat;
+      background: url("../img/f2.jpg") center center no-repeat;
       background-size: cover;
 }
 
 .momentImg {
-      background: url("../_img/f3.jpeg") center center no-repeat;
+      background: url("../img/f3.jpeg") center center no-repeat;
       background-size: cover;
 }
 
 .memoryImg{
-      background: url("../_img/f4.jpg") center center no-repeat;
+      background: url("../img/f4.jpg") center center no-repeat;
       background-size: cover;
 }
 
