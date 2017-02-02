@@ -41,7 +41,7 @@ header{
       height: 100vh;
 }
 
-.landing h3, .destination h3, .moment h3, .memory h3{
+.landing h3, .landing2 h3, .destination h3, .moment h3, .memory h3{
       color: orange;
       font-size: 3em;
       text-align: center;
@@ -97,8 +97,27 @@ header{
 
 
 /* -----------------------------------------
-   Page Name 2
+   Trigger
 ----------------------------------------- */
+
+.triggerContainer{
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 100;
+}
+
+.trigger{
+      display: block;
+      width: 100px;
+      height: 12.5vh;
+      border: 3px solid pink;
+}
+
+
+
+
 
 
 /* -----------------------------------------
