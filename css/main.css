@@ -63,7 +63,6 @@
       z-index: 9;
 }
 
-
 .landing, .landing2{
       height: 100vh;
 }
@@ -100,7 +99,7 @@
 }*/
 
 .landingImg{
-      background: url("../img/f1.jpg") center center no-repeat;
+      background: url("../img/f1.jpg") top center no-repeat;
       background-size: cover;
       background-attachment: fixed;
 }
@@ -116,7 +115,7 @@
 }
 
 .memoryImg{
-      background: url("../img/f4.jpg") center center no-repeat;
+      background: url("../img/f4.jpg") bottom center no-repeat;
       background-size: cover;
 }
 
