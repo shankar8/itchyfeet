@@ -37,12 +37,12 @@
 
 .landing, .landing2, .destination, .moment, .memory{
       display: block;
+      position: relative;
       width: 100%;
-      position: fixed;
 }
 
 .landing2, .destination, .moment, .memory{
-      top: 100vh;
+
 }
 
 .landing {
@@ -118,7 +118,6 @@
 ----------------------------------------- */
 
 .main{
-
       width: 100%;
 }
 
@@ -139,12 +138,8 @@
 ----------------------------------------- */
 
 .triggerContainer{
-      display: block;
-<<<<<<< HEAD
+      display: block
       position: absolute;
-=======
-      opacity: none;
->>>>>>> 85cf9e0ea51fbd405320425874e12e2d418b13ca
       top: 0;
       left: 0;
       z-index: 100;
@@ -154,12 +149,8 @@
       display: block;
       width: 100px;
       height: 100vh;
-<<<<<<< HEAD
       border: 3px solid pink;
       z-index: 100;
-=======
-
->>>>>>> 85cf9e0ea51fbd405320425874e12e2d418b13ca
 }
 
 
