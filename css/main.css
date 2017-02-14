@@ -29,14 +29,40 @@
 /* -----------------------------------------
    Landing Section
 ----------------------------------------- */
-
-header{
-      display: none;
-}
+/*.main{
+      display: block;
+      width: 100%;
+      position: fixed;
+}*/
 
 .landing, .landing2, .destination, .moment, .memory{
       display: block;
-      position: relative;
+      width: 100%;
+      position: fixed;
+}
+
+.landing2, .destination, .moment, .memory{
+      top: 100vh;
+}
+
+.landing {
+      z-index: 5;
+}
+
+.landing2 {
+      z-index: 6;
+}
+
+.destination {
+      z-index: 7;
+}
+
+.moment {
+      z-index: 8;
+}
+
+.memory {
+      z-index: 9;
 }
 
 .landing, .landing2{
@@ -51,7 +77,7 @@ header{
       top: 50%;
       left: 50%;
       transform: translate(-50%,-50%);
-      z-index: 10;
+      z-index: 100;
 }
 
 #landing.change h3 {
@@ -114,7 +140,11 @@ header{
 
 .triggerContainer{
       display: block;
+<<<<<<< HEAD
       position: absolute;
+=======
+      opacity: none;
+>>>>>>> 85cf9e0ea51fbd405320425874e12e2d418b13ca
       top: 0;
       left: 0;
       z-index: 100;
@@ -124,8 +154,12 @@ header{
       display: block;
       width: 100px;
       height: 100vh;
+<<<<<<< HEAD
       border: 3px solid pink;
       z-index: 100;
+=======
+
+>>>>>>> 85cf9e0ea51fbd405320425874e12e2d418b13ca
 }
 
 
