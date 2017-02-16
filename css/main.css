@@ -125,7 +125,7 @@
 
 .main{
       width: 100%;
-      
+
 }
 
 
@@ -147,21 +147,25 @@
 .triggerContainer{
       display: block
       position: absolute;
-      top: 0;
+      top: 75;
       left: 0;
       z-index: 100;
 }
 
-.trigger{
+
+.trigger, .trigger1{
       display: block;
       width: 100px;
-      height: 25vh;
       border: 3px solid pink;
       z-index: 100;
 }
 
-.triggerContainer .trigger1{
+.trigger1{
       height: 75vh;
+}
+
+.trigger{
+      height: 25vh;
 }
 
 
@@ -170,8 +174,25 @@
 
 
 /* -----------------------------------------
-   Page Name 2
+ svg viewFinder
 ----------------------------------------- */
+
+.viewFinderContainer{
+      position: fixed;
+      z-index: 120;
+}
+
+svg#viewFinder{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+}
+
+
+
+
 
 
 /* -----------------------------------------
