@@ -150,11 +150,6 @@ header{
       z-index: 100;
 }
 
-
-.map h3{
-      color: dodgerblue;
-}
-
 .moment h3{
       color: rgba(0,0,0,0.7);
 }
@@ -288,7 +283,7 @@ svg#viewFinder{
       top: 100vh;
       height: 100vh;
       width: 100%;
-      background: dodgerblue;      
+      background: dodgerblue;
       z-index: 11;
 }
 
