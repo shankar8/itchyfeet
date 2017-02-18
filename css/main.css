@@ -166,12 +166,12 @@ header{
 
 
 .landingImg{
-      background: url("../img/f1.jpg") top center no-repeat;
+      background: url("../img/f2.jpg") bottom center no-repeat;
       background-size: cover;
 }
 
 .destinationImg {
-      background: url("../img/f2.jpg") bottom center no-repeat;
+      background: url("../img/f1.jpg") top center no-repeat;
       background-size: cover;
 }
 
