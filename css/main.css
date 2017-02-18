@@ -248,26 +248,26 @@ header{
 
 
 /* -----------------------------------------
- svg viewFinder
+ svg viewFrame Section
 ----------------------------------------- */
 
-.viewFinderContainer{
+.viewFrameSection{
       position: fixed;
-      z-index: 120;
-
-
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 200;
 }
 
-svg#viewFinder{
+.viewFrameBox{
       position: absolute;
-      display: block;
-      top: 50%;
+      top: 98%;
       left: 50%;
-      transform: translate(-50%,-50%);
-      height: 550px;
-      width: 320px;
+      transform: translateX(-50%);
+      height: 2%;
+      width: 600px;
 }
-
 
 
 
@@ -283,7 +283,8 @@ svg#viewFinder{
       top: 100vh;
       height: 100vh;
       width: 100%;
-      background: dodgerblue;
+      background: white;
+      /*background: dodgerblue;*/
       z-index: 11;
 }
 
