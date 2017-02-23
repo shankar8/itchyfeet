@@ -290,9 +290,50 @@ header{
 
 
 
+
+/*-------------------------------------------------------
+map
+-------------------------------------------------------*/
+
+.mapBox{
+      position:absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+}
+
+.svgBox{
+      width: 100%;
+      height: 100%;
+}
+
+
+
+
 /* -----------------------------------------
-   Page Name 2
+   Menu bg
 ----------------------------------------- */
+
+/*.menuWrapper{
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: pink;
+      z-index: 200;
+}
+
+#menubg{
+      height: 100%;
+      width: 100%;
+}*/
+
+
+
+
+
 
 
 
