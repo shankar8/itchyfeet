@@ -84,32 +84,55 @@ header{
 /* -----------------------------------------
    Landing Section
 ----------------------------------------- */
+
 /*.main{
-      display: block;
-      width: 100%;
-      position: fixed;
-}*/
-.main{
       overflow: hidden;
       position: relative;
+}*/
+
+.main{
+      width: 100%;
+      position: relative;
+      height: 100vh;
+      overflow-y: hidden;
 }
 
 
-.sectionBox{
+/*.sectionBox{
       display: block;
       position: fixed;
       width: 100%;
       z-index: 10;
+}*/
+
+.sectionBox{
+      display: block;
+      height: 100vh;
+      width: 100%;
+      z-index: 10;
 }
 
-.landing2, .destination, .moment, .memory{
+/*.landing2, .destination, .moment, .memory{
       top: 100vh;
 }
 
 .map{
       top:0;
       left:-100vw;
+}*/
+
+.landing2, .destination, .moment, .memory, .footer{
+      position: absolute;
+      top: 100%;
+      left: 0%;
 }
+
+.map{
+      position: absolute;
+      top: 0%;
+      right: 100%;
+}
+
 
 .landing {
       z-index: 5;
@@ -124,7 +147,7 @@ header{
 }
 
 .map {
-      z-index: 8
+      z-index: 8;
 }
 
 .moment {
@@ -133,6 +156,10 @@ header{
 
 .memory {
       z-index: 10;
+}
+
+.footer{
+      z-index: 11;
 }
 
 .landing, .landing2{
@@ -162,9 +189,9 @@ header{
       color: rgba(0,0,0,0.7);
 }
 
-#landing.change h3 {
+/*#landing.change h3 {
       color: green;
-}
+}*/
 
 .imgBox{
       display: block;
@@ -206,7 +233,6 @@ header{
 
 .main{
       width: 100%;
-
 }
 
 
@@ -224,7 +250,7 @@ header{
 /* -----------------------------------------
    Trigger
 ----------------------------------------- */
-
+/*
 .triggerContainer{
       display: block
       position: absolute;
@@ -249,7 +275,7 @@ header{
 .trigger{
       height: 25vh;
 }
-
+*/
 
 
 
@@ -316,6 +342,36 @@ map
       width: 100%;
       height: 100%;
 }
+
+
+
+/* -----------------------------------------
+   Top Button
+----------------------------------------- */
+
+/*.topBtn{
+      position: fixed;
+      display: block;
+      height: 70px;
+      width: 70px;
+      background: orange;
+      border-radius: 50%;
+      bottom: 40px;
+      right: 40px;
+      z-index: 1000;
+      opacity: 0;
+      transition: opacity 0.5s ease-in;
+      pointer-events: none;
+}
+
+.topBtn.show{
+      display: block;
+      opacity: 1;
+      pointer-events: auto;
+}*/
+
+
+
 
 
 
