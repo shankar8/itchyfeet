@@ -349,6 +349,8 @@ map
    Top Button
 ----------------------------------------- */
 
+
+
 /*.topBtn{
       position: fixed;
       display: block;
@@ -380,32 +382,44 @@ map
    Menu bg
 ----------------------------------------- */
 
-.menuWrapper{
+.menuSection{
       position: fixed;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      background: pink;
+      top: 0px;
+      right: 0px;
       z-index: 200;
+}
+
+.menuIcon{
+      position: absolute;
+      display: block;
+      top: 20px;
+      right: 20px;
+      height: 50px;
+      width: 50px;
+      background: orange;
+      border-radius: 50%;
 }
 
 .menuWrapper{
       position: absolute;
-      top: 0;
-      right: 0;
-      text-align: right;
+      top: -100px;
+      right: -100px;
+      transform-origin: center;
+      transform: rotate(45deg);
 }
 
-#menubg{
-      height: 60px;
-      width: 60px;
+.menuBg{
+      height: 100px;
+      width: 100px;
+      background: pink;
+      transition: transform 0.3s ease-in;
 }
 
-.menuWrapper .scaleMenu #menubg{
-      height:200px;
-      width:200px;
+.menuBg.expand{
+      transform: scale(30);
 }
+
+
 
 
 
