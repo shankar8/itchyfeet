@@ -386,7 +386,10 @@ map
       position: fixed;
       top: 0px;
       right: 0px;
+      left: 0px;
+      bottom: 0px;
       z-index: 200;
+      pointer-events: none;
 }
 
 .menuIcon{
@@ -398,6 +401,7 @@ map
       width: 50px;
       background: orange;
       border-radius: 50%;
+      pointer-events: auto;
 }
 
 .menuWrapper{
@@ -411,12 +415,44 @@ map
 .menuBg{
       height: 100px;
       width: 100px;
-      background: pink;
+      background: white;
       transition: transform 0.3s ease-in;
 }
 
 .menuBg.expand{
       transform: scale(30);
+}
+
+.menuBox{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+}
+
+.loginMenu{
+      /*display: none;*/
+      transform: translateX(100px);
+      opacity: 0;
+      transition: all 0.3s ease-in;
+      pointer-events: none;
+}
+
+.loginMenu input{
+      margin:0 auto;
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 300px;
+      background: white;
+      border: 1px solid #999;
+      color: #333;
+}
+
+.loginMenu.show{
+      /*display: block;*/
+      transform: translateX(0px);
+      opacity: 1;
+      pointer-events: auto;
 }
 
 

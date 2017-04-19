@@ -49,23 +49,12 @@
 
 
 <body>
-
-      <div class="container-fluid">
-            <div class="row">
-                  <div class="col-lg-12">
-
-                  </div>
-            </div>
-      </div>
-
       <header>
             <h1 class="logo"><a href="#">Itchyfeet</a></h1>
             <div class="navButton">
                   <div class="hi"></div>
             </div>
       </header>
-
-
       <div class="main">
             <section class="sectionBox landing active" id="landing" data-index="1">
                   <h3>Hey there!</h3>
@@ -117,30 +106,83 @@
                   <h3>footer stuff</h3>
             </section>
       </div><!--end main-->
-
-
-
       <div class="viewFrameSection">
             <div class="viewFrameBox"></div>
       </div>
-
-      <div class="topBtn">
-            <button class="btn btn-primary btn-sm pull-right" data-target="#loginModal" data-toggle="modal">Login</button>
-      </div>
-
-
       <div class="menuSection">
             <div class="menuWrapper">
                   <div class="menuBg"></div>
             </div>
-            <div class="menuIcon">X</div>
+            <div class="menuBox">
+                  <form class="loginMenu" action="">
+                        <form method="post" class="form">
+                                    <input type="email" placeholder="Name" class="name">
+                                    <br>
+                                    <input type="password" placeholder="Your Email" class="email">
+                                    <br>
+                                    <input type="submit" value="SUBMIT">
+                        </form>
+                  </form>
+            </div>
+            <div class="menuIcon">
+                  <!-- <button class="btn btn-primary btn-sm" data-target="#loginModal" data-toggle="modal">Login</button> -->
+            </div>
       </div>
+
+      <!-- <div class="container-fluid">
+            <div class="row">
+                  <div class="col-lg-12">
+                        <div class="modal fade modal-sm" data-keyboard="false" id="loginModal" tabindex="-1">
+                              <div class="modal-dialog">
+                                    <div class="modal-content">
+                                          <div class="modal-header">
+                                                <button class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title">Login</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                                <form>
+                                                      <div class="form-group">
+                                                            <label for="exampleInputEmail1">Email Address</label>
+                                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                                      </div>
+                                                      <div class="form-group">
+                                                            <label for="exampleInputPassword1">Password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                                                      </div>
+                                                </form>
+                                          </div>
+                                          <div class="modal-footer">
+                                                <button class="btn btn-primary">Login</button>
+                                                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div><!--Form completion-->
+                  </div>
+            </div>
+      </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="bootstrap/js/bootstrap.js"></script>
+<script src="scripts/bootstrap.js"></script>
 
 <!-- add link to Greensock -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>

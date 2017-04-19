@@ -134,6 +134,7 @@ function routeAnimate(){
 
 $(".menuIcon").on('click', function(){
       $(".menuBg").toggleClass('expand');
+      $(".loginMenu").toggleClass('show');
 });
 
 
