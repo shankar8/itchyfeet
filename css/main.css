@@ -404,23 +404,20 @@ map
       pointer-events: auto;
 }
 
-.menuWrapper{
-      position: absolute;
-      top: -100px;
-      right: -100px;
-      transform-origin: center;
-      transform: rotate(45deg);
-}
-
 .menuBg{
-      height: 100px;
-      width: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      /*transform-origin: center;*/
+      transform: translateX(100%);
       background: white;
       transition: transform 0.3s ease-in;
 }
 
 .menuBg.expand{
-      transform: scale(30);
+      transform: translateX(0%);
 }
 
 .menuBox{
@@ -431,14 +428,30 @@ map
 }
 
 .loginMenu{
-      /*display: none;*/
-      transform: translateX(100px);
+      transform: translateX(300px);
       opacity: 0;
-      transition: all 0.3s ease-in;
-      pointer-events: none;
+      transition: all 0.5s ease-in-out;
 }
 
-.loginMenu input{
+.loginMenu.show{
+      transform: translateX(0px);
+      opacity: 1;
+      pointer-events: auto;
+}
+
+.signUpMenu{
+      transform: translateX(00px);
+      opacity: 1;
+      transition: all 0.5s ease-in-out;
+}
+
+/*.signUpMenu.show{
+      transform: translateX(0px);
+      opacity: 1;
+      pointer-events: auto;
+}*/
+
+.loginMenu input, .signUpMenu input{
       margin:0 auto;
       padding: 10px;
       margin-bottom: 10px;
@@ -448,12 +461,7 @@ map
       color: #333;
 }
 
-.loginMenu.show{
-      /*display: block;*/
-      transform: translateX(0px);
-      opacity: 1;
-      pointer-events: auto;
-}
+
 
 
 

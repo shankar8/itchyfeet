@@ -137,6 +137,11 @@ $(".menuIcon").on('click', function(){
       $(".loginMenu").toggleClass('show');
 });
 
+$("#signUp").on('click', function(){
+      $(".loginMenu").toggleClass('show');
+      $(".signUpMenu").toggleClass('show');
+});
+
 
 
 
